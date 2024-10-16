@@ -29,6 +29,11 @@
             // se não existir, lança um erro
             throw new Exception("Arquivo.'$name' não encontrado");
         }
+        else 
+        {
+            // se não existir, lança um erro
+            throw new Exception("Arquivo.'$name' não encontrado");
+        }
 
         // lê os arquivos e grava as informações contidas neles
         $user = isset($db['user']) ? $db['user'] :'NULL';
